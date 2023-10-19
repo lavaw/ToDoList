@@ -7,3 +7,9 @@
 //
 
 import Foundation
+import RealmSwift
+
+class Data: Object {
+    dynamic var name: String = ""
+    dynamic var age: Int = 0
+}
